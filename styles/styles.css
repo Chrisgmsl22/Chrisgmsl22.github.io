@@ -1,0 +1,13 @@
+.texto-blanco{
+    color: white;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.mover-derecha{
+    float: middle;
+    position: absolute;
+    
+}

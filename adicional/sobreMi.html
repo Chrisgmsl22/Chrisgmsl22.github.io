@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" type="image/png" href="assets/images/icono.png">
+
+    <title>BreadCrum</title>
+  </head>
+  <body>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          href="https://github.com/danjrosales/boostrap-Chrisgmsl22"
+          target="blank"
+          >Github</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse show" id="navbarColor01" style="">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <span class="badge bg-success">En linea</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/adicional/breadcrum.html">Breadcrum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="listadoClientes.html"
+                >Listado de Clientes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobreMi.html">Sobre Mi</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <h1 style="text-align: center">Christian GM</h1>
+
+    <!-- Tarjeta sobre mi -->
+    <div class="col-md-6 offset-md-3">
+      <div class="card centrar">
+        <div class="card-header">Frase del Día</div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>
+              Si quieres ver cambios en tu vida, entonces haz algo diferente.
+            </p>
+            <footer class="blockquote-footer">
+              Kung Fu Panda <cite title="Source Title">Tercera Peli</cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <!-- Informaciones personales -->
+    <br />
+    <hr />
+    <p>
+      <button
+        class="btn btn-success"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseWidthExample"
+        aria-expanded="false"
+        aria-controls="collapseWidthExample"
+      >
+        Formación Académica
+      </button>
+
+      <button
+        class="btn btn-warning"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#universidad"
+        aria-expanded="false"
+        aria-controls="collapseWidthExample"
+      >
+        Universidad
+      </button>
+
+
+      <button
+        class="btn btn-danger"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#metaspersonales"
+        aria-expanded="false"
+        aria-controls="collapseWidthExample"
+      >
+        Metas Personales
+      </button>
+    </p>
+
+    <!-- Inicio del contenido de lo que se muestra del boton -->
+    <div style="min-height: 120px">
+      <div class="collapse collapse-horizontal" id="collapseWidthExample">
+        <div class="card card-body" style="width: 700px">
+          <p>
+            Estudié el bachillerato en el Colegio de Ciencias y Humanidades,
+            plantel Sur y egresé con un promedio de 9.4 del mismo
+          </p>
+
+          <div class="row row-cols-1 row-cols-md-1 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="/assets/images/cch.jpg"
+                  class="card-img-top"
+                  alt="Imagen del CCH sur bellísimo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">CCH Sur</h5>
+                  <p class="card-text">
+                    Una de las mejores etapas de mi vida donde conocí a personas
+                    con distinta forma de pensar
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin de lo qe se muestra al accionar el boton -->
+
+
+    <!-- Inicio del contenido de lo que se muestra del boton 2 -->
+    <div style="min-height: 120px">
+      <div class="collapse collapse-horizontal" id="universidad">
+        <div class="card card-body" style="width: 700px">
+          <p>
+            Inicie la carrera de informática en el año 2019 en agosto, además de
+            esto, fue algo complicado el acoplarme al estilo de la universidad,
+            pero se sintió bien el poderme ir adaptando.
+          </p>
+
+          <div class="row row-cols-1 row-cols-md-1 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="/assets/images/fca unam.jpg"
+                  class="card-img-top"
+                  alt="Imagen de la FCA"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">FCA</h5>
+                  <p class="card-text">
+                    Actualmente una de las etapas más importantes de mi
+                    formación profesional
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin de lo qe se muestra al accionar el boton 2 -->
+
+
+    <!-- Inicio del contenido de lo que se muestra del boton 3 -->
+    <div style="min-height: 120px">
+        <div class="collapse collapse-horizontal" id="metaspersonales">
+          <div class="card card-body" style="width: 700px">
+            <p>
+              Siendo uno de las cosas en las que me gustaría dedicar es en el área de desarrollo web, pero apenas y gracias a una profesora conocí los servicios en la nube, y qué tan necesarios son para el mundo moderno, así que uno de mis objetivos de mi formación profesional es en el desarrollo en la nube por parte de los servicios AWS de Amazon.
+
+              Espero que en un par de años pueda trabajar en una sede en Estados Unidos
+            </p>
+  
+            <div class="row row-cols-1 row-cols-md-1 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="/assets/images/aws.jpg"
+                    class="card-img-top"
+                    alt="Instalaciones de amazon AWS"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">AWS HQ</h5>
+                    <p class="card-text">
+                      Uno de mis sueños que algún día cumpliré
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fin de lo qe se muestra al accionar el boton 3 -->
+
+
+
+      <footer class="bg-light text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Saludos especiales</h5>
+      
+              <p>
+                La realización de este sitio se logró gracias a la tarea que se nos asigno el miercoles pasado dentro de la classe
+              </p>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Desarrollo de esta página</h5>
+      
+              <p>
+                El desarrollo de esta página se llevó a cabo como un proyecto de prueba, para poder aplicar estilos y estar familizarizados con bootstrap y hojas de estilo personales CSS
+              </p>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Licencia de uso libre para el que quiera:
+          <a class="text-dark" href="https://fca.unam.mx/" target="blank">FCA UNAM</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+  </body>
+</html>
